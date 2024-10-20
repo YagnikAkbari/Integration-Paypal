@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ededed;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,20 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.container-paypal{
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+
+button{
+  background-image: linear-gradient(to right,#003087, #338de6);
+  padding: 6px 8px;
+  border-radius: 4px;
 }
